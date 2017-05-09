@@ -49,16 +49,16 @@
     <None Include="shaders\deferredShading.vs">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shaders\gBuffer.frag">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shaders\gBuffer.vs">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="shaders\shaderLightBox.frag">
       <Filter>Source Files</Filter>
     </None>
     <None Include="shaders\shaderLightBox.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\gBuffer_vert.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\gBuffer_frag.glsl">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

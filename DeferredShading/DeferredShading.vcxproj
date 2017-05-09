@@ -137,8 +137,8 @@
   <ItemGroup>
     <None Include="shaders\deferredShading.frag" />
     <None Include="shaders\deferredShading.vs" />
-    <None Include="shaders\gBuffer.frag" />
-    <None Include="shaders\gBuffer.vs" />
+    <None Include="shaders\gBuffer_frag.glsl" />
+    <None Include="shaders\gBuffer_vert.glsl" />
     <None Include="shaders\shaderLightBox.frag" />
     <None Include="shaders\shaderLightBox.vs" />
   </ItemGroup>

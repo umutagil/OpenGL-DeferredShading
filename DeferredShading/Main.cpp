@@ -66,7 +66,7 @@ int main()
 
 	glEnable(GL_DEPTH_TEST);
 	
-	Shader shaderGeometryPass("shaders/gBuffer.vs", "shaders/gBuffer.frag");
+	Shader shaderGeometryPass("shaders/gBuffer_vert.glsl", "shaders/gBuffer_frag.glsl");
 	Shader shaderLightingPass("shaders/deferredShading.vs", "shaders/deferredShading.frag");
 	Shader shaderLightBox("shaders/shaderLightBox.vs", "shaders/shaderLightBox.frag");
 
