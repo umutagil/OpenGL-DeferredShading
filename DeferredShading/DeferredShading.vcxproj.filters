@@ -43,22 +43,22 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\deferredShading.frag">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shaders\deferredShading.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shaders\shaderLightBox.frag">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shaders\shaderLightBox.vs">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="shaders\gBuffer_vert.glsl">
       <Filter>Source Files</Filter>
     </None>
     <None Include="shaders\gBuffer_frag.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\deferredShading_vert.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\deferredShading_frag.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\shaderLightBox_frag.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\shaderLightBox_vert.glsl">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

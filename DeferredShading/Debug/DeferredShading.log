@@ -1,4 +1,4 @@
-﻿Build started 5/7/2017 8:42:17 PM.
+﻿Build started 5/9/2017 9:26:16 AM.
      1>Project "C:\Develop\OpenGL\DeferredShading\DeferredShading\DeferredShading.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CubeMap.vcxproj, GeometryShader.vcxproj, HDR.vcxproj, LearnOpenGL.vcxproj, NormalMapping.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -43,4 +43,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.29
+Time Elapsed 00:00:02.20

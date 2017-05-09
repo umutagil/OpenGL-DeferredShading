@@ -135,12 +135,12 @@
     <ClCompile Include="Model.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\deferredShading.frag" />
-    <None Include="shaders\deferredShading.vs" />
+    <None Include="shaders\deferredShading_frag.glsl" />
+    <None Include="shaders\deferredShading_vert.glsl" />
     <None Include="shaders\gBuffer_frag.glsl" />
     <None Include="shaders\gBuffer_vert.glsl" />
-    <None Include="shaders\shaderLightBox.frag" />
-    <None Include="shaders\shaderLightBox.vs" />
+    <None Include="shaders\shaderLightBox_frag.glsl" />
+    <None Include="shaders\shaderLightBox_vert.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -67,8 +67,8 @@ int main()
 	glEnable(GL_DEPTH_TEST);
 	
 	Shader shaderGeometryPass("shaders/gBuffer_vert.glsl", "shaders/gBuffer_frag.glsl");
-	Shader shaderLightingPass("shaders/deferredShading.vs", "shaders/deferredShading.frag");
-	Shader shaderLightBox("shaders/shaderLightBox.vs", "shaders/shaderLightBox.frag");
+	Shader shaderLightingPass("shaders/deferredShading_vert.glsl", "shaders/deferredShading_frag.glsl");
+	Shader shaderLightBox("shaders/shaderLightBox_vert.glsl", "shaders/shaderLightBox_frag.glsl");
 
 	shaderLightingPass.Use();
 	glUniform1i(glGetUniformLocation(shaderLightingPass.Program, "gPosition"), 0);
